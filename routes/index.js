@@ -5,10 +5,13 @@ var os = require('os');
 
 var networkInterfaces = os.networkInterfaces();
 var myhost = os.hostname(); 
+var cpuc = cpuCount = os.cpus().length;
+var fmem = os.freemem();
+var tmem = os.totalmem();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {page:'Steve Azure Demo Page', menuId:'home', sakura: myhost , mazda: networkInterfaces });
+  res.render('index', {page:'Azure Demo WebApp - steven.com.my', menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem  });
 });
 
 router.get('/about', function(req, res, next) {

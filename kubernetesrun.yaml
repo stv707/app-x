@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webappx-deployment
+  labels:
+    app: webappx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: webappx
+  template:
+    metadata:
+      labels:
+        app: webappx
+    spec:
+      containers:
+      - name: webappx
+        image: stv707/appx:v1
+        ports:
+        - containerPort: 3000

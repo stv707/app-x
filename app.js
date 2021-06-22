@@ -4,6 +4,8 @@ var logger = require('morgan');
 var index = require('./routes/index');
 var app = express();
 
+// Get Chart and CPU Monitor
+app.use(require('express-status-monitor')());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
