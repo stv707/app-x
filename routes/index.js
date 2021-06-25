@@ -14,8 +14,8 @@ router.get('/', function(req, res, next) {
   res.render('index', {page:'Azure Demo WebApp - steven.com.my', menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem  });
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('about', {page:'About us', menuId:'about'});
+router.get('/express', function(req, res, next) {
+  res.render('express', {page:'About us', menuId:'about'});
 });
 
 router.get('/contact', function(req, res, next) {
