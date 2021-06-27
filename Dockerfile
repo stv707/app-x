@@ -11,7 +11,7 @@ RUN npm install --only=production
 
 # Bundle app source
 COPY . .
-EXPOSE 80
+EXPOSE 3000
 
 # Use entrypoint to trigger script
 ENTRYPOINT /bin/bash ./entrypoint.sh
