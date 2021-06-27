@@ -1,5 +1,5 @@
 # We use node 12 - OLD ( its ok for DEMO )
-FROM node:12
+FROM node:latest
 
 # Create app directory
 WORKDIR /usr/src/app
