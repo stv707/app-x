@@ -1,5 +1,5 @@
 # We use node 12 - OLD ( its ok for DEMO )
-FROM node:latest
+FROM openshift/nodejs:latest
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -11,7 +11,7 @@ RUN npm install --only=production
 
 # Bundle app source
 COPY . .
-EXPOSE 3000
+EXPOSE 80
 
 # Use entrypoint to trigger script
 ENTRYPOINT /bin/bash ./entrypoint.sh
