@@ -11,7 +11,7 @@ var tmem = os.totalmem();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {page:'Azure Demo WebApp - steven.com.my', menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem  });
+  res.render('index', {page:'Azure | Redhat OCPv4.5 Demo WebApp - steven.com.my', menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem  });
 });
 
 router.get('/express', function(req, res, next) {
