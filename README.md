@@ -26,3 +26,7 @@ cd <repo>
 podman build . -t <tag_name>
 
 ```
+
+> you can modify the DockerFile to suit your build
+
+> app main program is in bin/www ( eg: changing port )
