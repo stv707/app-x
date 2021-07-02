@@ -1,7 +1,5 @@
 ### Simple Website with NodeJS, Express & EJS view engine
-
 ### For Azure Kubernetes Services and Azure Container Instances (AKS / ACI )
-
 ### How to use this?
 
 > Download Container Image
@@ -28,9 +26,3 @@ cd <repo>
 podman build . -t <tag_name>
 
 ```
-
-
-
-
-
-
