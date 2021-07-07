@@ -1,5 +1,5 @@
 # We use node 12 - OLD ( its ok for DEMO )
-FROM openshift/nodejs:latest
+FROM nodejs:latest
 
 USER root
 # Create app directory
