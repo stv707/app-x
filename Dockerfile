@@ -1,5 +1,5 @@
 # We use node 12 - OLD ( its ok for DEMO )
-FROM registry.access.redhat.com/nodejs:latest
+FROM registry.access.redhat.com/ubi8/nodejs-12
 
 USER root
 # Create app directory
