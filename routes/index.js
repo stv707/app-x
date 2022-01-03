@@ -10,7 +10,7 @@ var fmem = os.freemem();
 var tmem = os.totalmem();
 
 var paget = process.env.PAGET || 'AKS | OCP | Container Appx:v2';
-var pageh = process.env.PAGEH || 'AKS | OCP | Container Appx:v2' ; 
+var pageh = process.env.PAGEH || 'AKS | OCP | Container Appx:v2';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -18,11 +18,11 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/express', function(req, res, next) {
-  res.render('express', {page:'About us', menuId:'about'});
+  res.render('express', {page:'About us', menuId:'about', header: pageh });
 });
 
 router.get('/contact', function(req, res, next) {
-  res.render('contact', {page:'Contact Steve', menuId:'contact'});
+  res.render('contact', {page:'Contact Steve', menuId:'contact', header: pageh });
 });
 
 module.exports = router;
