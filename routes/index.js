@@ -9,9 +9,12 @@ var cpuc = cpuCount = os.cpus().length;
 var fmem = os.freemem();
 var tmem = os.totalmem();
 
+var paget = process.env.PAGET || 'AKS | OCP | Container Appx:v2';
+var pageh = process.env.PAGEH || 'AKS | OCP | Container Appx:v2' ; 
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {page:'AKS | OCP | Container Appx:v2', menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem  });
+  res.render('index', {page: paget, menuId:'home', sakura: myhost , mazda: cpuc , honda: fmem, bmw: tmem, header: pageh  });
 });
 
 router.get('/express', function(req, res, next) {
