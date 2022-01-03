@@ -17,5 +17,7 @@ RUN npm install --only=production
 COPY . .
 EXPOSE 3000
 
+
+USER node
 # Use entrypoint to trigger script
 ENTRYPOINT /bin/bash ./entrypoint.sh
