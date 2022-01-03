@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: webappx
-        image: stv707/appx:v1
+        image: stv707/appx:v2
         ports:
         - containerPort: 3000
