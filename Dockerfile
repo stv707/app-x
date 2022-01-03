@@ -1,13 +1,13 @@
 # We use node 12 - OLD ( its ok for DEMO )
 FROM node:12-slim
 
-# Uncomment to use node 14
+# Uncomment to use node 14 base image
 #FROM registry.access.redhat.com/ubi8/nodejs-14:latest
 
-#Set use Root to Create Workdir, to copy  and to install npm modules 
+#Set use Root to Set Workdir, to copy  and to install npm modules 
 USER root
 
-# Create app directory
+# Set app directory
 WORKDIR /usr/src/app
 
 #Copy all artifacts into image
