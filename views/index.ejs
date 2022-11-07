@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <% include partials/head %> 
+<%- include('partials/head'); -%>
 </head>
 <body>
-<% include partials/menu %>
+<%- include('partials/menu'); -%>
 
 <div class="container-fluid bg-3 text-center">    
   <h3><%= page %></h3><br>
@@ -16,11 +16,12 @@
     <div class="col-sm-4"> 
       <!-- <p><h4>Nodejs Express Site for Azure KS | CI | AD Demo </h4></p> --> 
 
-      <p><h1>MAYDAY v1 - AZ104</h1></p>
-      <h4>Container/Pod name : <b><%=sakura%></b> </h4>
-      <h4>Container/Pod CPU : <b><%=mazda%></b> </h4>
-      <h4>Container/Pod FreeMemory : <b><%=honda%></b> </h4>
-      <h4>Container/Pod TotalMemory : <b><%=bmw%></b> </h4>
+      <p><h2>Welcome to AzureDevOps WebApp v1</h2></p>
+      <p><h2>AZ-400</h2></p>
+      <h4>Container/Pod/Sys name : <b><%=sakura%></b> </h4>
+      <h4>Container/Pod/Sys CPU : <b><%=mazda%></b> </h4>
+      <h4>Container/Pod/Sys FreeMemory : <b><%=honda%></b> </h4>
+      <h4>Container/Pod/Sys TotalMemory : <b><%=bmw%></b> </h4>
     </div>
     <div class="col-sm-4"> 
       <p></p>
@@ -29,5 +30,5 @@
 </div>
 
 </body>
-<% include partials/script %>
+<%- include('partials/script'); -%>
 </html>

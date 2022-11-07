@@ -9,8 +9,8 @@ var cpuc = cpuCount = os.cpus().length;
 var fmem = os.freemem();
 var tmem = os.totalmem();
 
-var paget = process.env.PAGET || 'AKS | WebAPP Appx:v1';
-var pageh = process.env.PAGEH || 'AKS | WebAPP Appx:v1';
+var paget = process.env.PAGET || 'AzureDevOps | WebAPP Appx:v1';
+var pageh = process.env.PAGEH || 'AzureDevOps | WebAPP Appx:v1';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
