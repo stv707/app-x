@@ -1,5 +1,5 @@
 # We use node 12 - OLD ( its ok for DEMO )
-FROM node:12-slim
+FROM node:16-slim
 
 # Uncomment to use node 14 base image
 #FROM registry.access.redhat.com/ubi8/nodejs-14:latest
