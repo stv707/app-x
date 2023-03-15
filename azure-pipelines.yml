@@ -5,6 +5,9 @@
 trigger:
 - master
 
+pool:
+  name: ppcloudlinux 
+
 resources:
 - repo: self
 
