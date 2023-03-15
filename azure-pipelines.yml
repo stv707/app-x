@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'eb43bba8-0c9b-4332-a2b7-1a4c311cdba3'
+  dockerRegistryServiceConnection: 'ppregistry'
   imageRepository: 'stvappx'
   containerRegistry: 'parrotposacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
