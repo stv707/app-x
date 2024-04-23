@@ -34,4 +34,4 @@ podman build . -t <tag_name>
 ## Progressing 
 
 
-[![Actions Status](https://github.com/stv707/app-x/action/workflows/democonaz4002024/badge.svg)]
+[![Actions Status](https://github.com/stv707/app-x/actions/workflows/democonaz4002024.yml/badge.svg)]
