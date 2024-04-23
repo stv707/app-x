@@ -32,4 +32,4 @@ podman build . -t <tag_name>
 > app main program is in bin/www ( eg: changing port )
 
 ## Progressing 
-![example workflow](https://github.com/stv707/app-x/action/workflows/main_democonaz4002024.yml/badge.svg)
+[![Actions Status](https://github.com/{user}/{repo}/workflows/{action}/badge.svg)](https://github.com/{user}/{repo}/actions)
