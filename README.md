@@ -30,3 +30,6 @@ podman build . -t <tag_name>
 > you can modify the DockerFile to suit your build
 
 > app main program is in bin/www ( eg: changing port )
+
+## Progressing 
+https://github.com/stv707/app-x/action/workflows/main_democonaz4002024.yml/badge.svg
