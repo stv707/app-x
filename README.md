@@ -32,4 +32,6 @@ podman build . -t <tag_name>
 > app main program is in bin/www ( eg: changing port )
 
 ## Progressing 
-[![Actions Status](https://github.com/{user}/{repo}/workflows/{action}/badge.svg)](https://github.com/{user}/{repo}/actions)
+
+
+[![Actions Status](https://github.com/stv707/app-x/action/workflows/Build%20and%20deploy%20Node.js%20app%20to%20Azure%20Web%20App%20-%20democonaz4002024/badge.svg)]
