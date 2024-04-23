@@ -37,4 +37,4 @@ podman build . -t <tag_name>
 
 ![Build Status](https://github.com/dotnet-architecture/eShopOnWeb/workflows/eShopOnWeb%20Build%20and%20Test/badge.svg)
 
-![Actions Status](https://github.com/stv707/app-x/actions/workflows/democonaz4002024/badge.svg)](https://github.com/dotnet-architecture/eShopOnWeb/actions)
+![Actions Status](https://github.com/stv707/app-x/actions/workflows/democonaz4002024/badge.svg)
