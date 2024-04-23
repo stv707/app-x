@@ -35,6 +35,6 @@ podman build . -t <tag_name>
 
 
 
-![Build Status](https://github.com/stv707/app-x/workflows/democonaz4002024/badge.svg)
+![Build Status](https://github.com/stv707/app-x/workflows/democonaz4002024%20/badge.svg)
 
-![Action Status](https://github.com/stv707/app-x/workflows/democonaz4002024/badge.svg)
+![Action Status](https://github.com/stv707/app-x/workflows/democonaz4002024%20/badge.svg)
