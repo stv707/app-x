@@ -1,4 +1,4 @@
-# We use node 12 - OLD ( its ok for DEMO )
+# We use node 16 - OLD ( its ok for DEMO )
 FROM node:16-slim
 
 # Uncomment to use node 14 base image
