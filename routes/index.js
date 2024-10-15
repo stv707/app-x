@@ -9,8 +9,8 @@ var cpuc = cpuCount = os.cpus().length;
 var fmem = os.freemem();
 var tmem = os.totalmem();
 
-var paget = process.env.PAGET || 'AzureAZ104 | WebAPP Appx:v1';
-var pageh = process.env.PAGEH || 'AzureAZ104 | WebAPP Appx:v1';
+var paget = process.env.PAGET || 'Jenkins | forMAYBANK_TEAM';
+var pageh = process.env.PAGEH || 'Jenkins | forMAYBANK_TEAM';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
