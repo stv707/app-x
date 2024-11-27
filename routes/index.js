@@ -9,8 +9,8 @@ var cpuc = cpuCount = os.cpus().length;
 var fmem = os.freemem();
 var tmem = os.totalmem();
 
-var paget = process.env.PAGET || 'JenkinsX | forMAYBANK_TEAM';
-var pageh = process.env.PAGEH || 'JenkinsX | forMAYBANK_TEAM';
+var paget = process.env.PAGET || 'from AppX France';
+var pageh = process.env.PAGEH || 'from AppX France';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
