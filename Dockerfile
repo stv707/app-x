@@ -1,7 +1,7 @@
-# We use node 16 - OLD ( its ok for DEMO )
-FROM node:16-slim
+# We use node 22 - NEW 
+FROM node:22-slim
 
-# Uncomment to use node 14 base image
+# Uncomment to use node 14 base image from Redhat UBI
 #FROM registry.access.redhat.com/ubi8/nodejs-14:latest
 
 #Set use Root to Set Workdir, to copy  and to install npm modules 
@@ -23,5 +23,8 @@ EXPOSE 3000
 USER node
 
 # Use entrypoint to trigger script or use CMD to run direct ( uncomment and comment one )
+# We use ENTRYPOINT! 
 #ENTRYPOINT /bin/bash ./entrypoint.sh
+
+# We use CMD!
 CMD [ "node", "./bin/www" ]
